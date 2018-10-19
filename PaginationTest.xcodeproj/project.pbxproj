@@ -15,6 +15,7 @@
 		7B54748C2179AFE300F0643E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B54748A2179AFE300F0643E /* LaunchScreen.storyboard */; };
 		7B5474972179AFE300F0643E /* PaginationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5474962179AFE300F0643E /* PaginationTestTests.swift */; };
 		7B5474A22179AFE300F0643E /* PaginationTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5474A12179AFE300F0643E /* PaginationTestUITests.swift */; };
+		7B5474B02179BBCB00F0643E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5474AF2179BBCB00F0643E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7B54749D2179AFE300F0643E /* PaginationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5474A12179AFE300F0643E /* PaginationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationTestUITests.swift; sourceTree = "<group>"; };
 		7B5474A32179AFE300F0643E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5474AF2179BBCB00F0643E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		7B54747D2179AFE100F0643E /* PaginationTest */ = {
 			isa = PBXGroup;
 			children = (
+				7B5474AF2179BBCB00F0643E /* Extensions.swift */,
 				7B54747E2179AFE200F0643E /* AppDelegate.swift */,
 				7B5474802179AFE200F0643E /* ViewController.swift */,
 				7B5474822179AFE200F0643E /* Main.storyboard */,
@@ -262,6 +265,7 @@
 				7B5474872179AFE200F0643E /* PaginationTest.xcdatamodeld in Sources */,
 				7B5474812179AFE200F0643E /* ViewController.swift in Sources */,
 				7B54747F2179AFE200F0643E /* AppDelegate.swift in Sources */,
+				7B5474B02179BBCB00F0643E /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
